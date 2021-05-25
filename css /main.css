@@ -129,11 +129,11 @@ p {
 }
 
 img{
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address{
@@ -166,6 +166,14 @@ header .content-wrapper{
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure{
+  width:60%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider{
@@ -233,9 +241,12 @@ footer .copyright{
 /* hero area */
 
 .hero-area{
-display: flex;
-justify-content: center;
-flex-flow: row wrap;
+  background: url('../img/hero-image.jpg');
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -284,6 +295,9 @@ input[type=button] {
 /*Features*/
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size:cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
