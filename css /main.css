@@ -204,6 +204,7 @@ header nav ul li{
 }
 
 footer{
+  text-align: center;
   flex-direction: column;
 }
 
@@ -227,9 +228,17 @@ footer .social-icons{
 }
 
 footer .social-icons p{
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i{
+  font-size: 1.3125em;
 }
 
 footer .copyright{
@@ -327,6 +336,7 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 /*Reviews*/
 
@@ -339,6 +349,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
